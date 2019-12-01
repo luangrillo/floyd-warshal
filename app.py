@@ -1,6 +1,6 @@
+##Define constants
 vertices = 4
 infinite  = 9999
-  
 
 grafo = [[0,3,infinite,7], 
              [8,0,2,infinite], 
@@ -8,19 +8,14 @@ grafo = [[0,3,infinite,7],
              [2,infinite,infinite,0],
         ] 
 
-selectVertex=int(input("Number of vertex:"))
+
 
 ##Algoritm of Floyd
-for k in range(selectVertex): 
+for k in range(vertices): 
     for i in range(vertices): 
         for j in range(vertices): 
             grafo[i][j] = min(grafo[i][j] , grafo[i][k]+ grafo[k][j]) 
 
-
-## Define constant
-i=0
-j=0
-infinite=999 ## infinite
 
 armTamanho = "" ##Concatenate on string
 
