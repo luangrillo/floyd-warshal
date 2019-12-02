@@ -1,5 +1,5 @@
 # floyd-warshal
-Algoritm of Floyd-warshal
+Algoritm of Floyd-warshall
 <br><br>
 You need: 
 Python >= 3.6
