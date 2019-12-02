@@ -1,4 +1,4 @@
-# floyd-warshal
+# floyd-warshall
 Algoritm of Floyd-warshall
 <br><br>
 You need: 
